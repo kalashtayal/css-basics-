@@ -1,0 +1,61 @@
+/* p{
+    color: aqua;
+}
+p{
+    color:red;
+}
+
+.para{
+    color:brown;
+} */
+
+/* universal selector(*) has 0 specificity */
+/* *{
+    color:pink;
+} */
+
+
+/* tags and pseudo-elements selector specificity:1  */
+input{
+    border: 1px solid black;
+}
+p{
+    color:black;
+}
+::marker{
+    color: yellowgreen;
+}
+section{
+    color:pink;
+}
+
+/* class, pseudo class selector,attribute selector:10 size of specificity */
+
+.para{
+    color:blue;
+}
+
+:hover{
+    color:burlywood;
+    cursor:pointer;
+}
+
+[type="text"]{
+    border:1px solid yellowgreen;
+}
+
+/* id selector has 100 specificity of size  */
+
+#para-1{
+color:aqua;
+}
+
+
+
+
+
+
+
+
+
+

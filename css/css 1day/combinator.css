@@ -1,0 +1,9 @@
+/* combinator selecctor */
+/* 1.general sibling selector  */
+h1 ~ p {
+    color:red;
+}
+
+.para ~ h1{
+    color:blue;
+}

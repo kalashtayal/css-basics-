@@ -1,0 +1,26 @@
+.container{
+    background-color: aqua;
+    /* font-size: 25px; */
+    height: 400px;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap:wrap-reverse; */
+    flex-flow: row wrap;
+    justify-content: center;
+    /* align-items: center; */
+    align-content:center;
+    /* row-gap:10px;
+    column-gap:30px; */
+    gap:30px 30px;
+    
+}
+
+.container .items{
+    background-color: blue;
+    width: 20%;
+    font-size: 30px;
+    padding: 20px;
+    color: beige;
+    border:1px solid black;
+    margin: 2px;
+}

@@ -1,0 +1,33 @@
+.container{
+width:90%;
+height: 400px;
+background-color: aqua;
+/* 1st step to create the grid  */
+display: grid;
+/* in repeat there is no. of column u want and then width od this columns  */
+/* this is the different way to create the grid column  */
+/* grid-template-columns: repeat(4,25%); */
+grid-template-columns: repeat(4,20%);
+/* grid-template-columns: 1fr 1fr 2fr; */
+/* grid-template-rows: 1fr 1fr ; */
+/* column-gap:10px;
+row-gap:10px ; */
+gap:5px 5px;
+/* if i want to move the elements so that we used justify-items; */
+/* justify-items:stretch; */
+
+/* if i want to move the full container so that we use justify-content */
+/* justify-content: center; */
+
+/* in this only items will move to the given direction; */
+/* align-items: center; */
+
+/* in this whole container will move to the giving directions */
+align-content: end;
+}
+
+.container .items{
+    background-color: burlywood;
+    margin: 2px;
+    /* height: 100px; */
+}
